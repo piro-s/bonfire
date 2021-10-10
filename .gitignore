@@ -1,0 +1,33 @@
+### Altium .gitignore
+
+# Ignore all files
+*
+
+# Don't ignore Git files
+!.gitignore
+
+# Don't ignore readme
+!README.md
+
+# Don't ignore docs
+!docs/*
+
+# Don't ignore views
+!view/**
+
+# Don't ignore gerber generated files
+!bonfire_v*.zip
+
+# Don't ignore KiCad files
+!*.kicad_pcb
+!*.pro
+!*.sch
+
+# Don't ignore program
+!*.c
+
+# Don't ignore bin
+!*.hex
+
+# Even if they are in subdirectories
+!**/ 
